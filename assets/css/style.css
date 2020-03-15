@@ -1,0 +1,446 @@
+/* body * {
+  border: 0.5px solid red;
+} */
+/*
+COLOR PART1
+212121
+323232
+0d7377
+14ffec
+*/
+/*
+COLOR PART2
+9ae17b
+6bba62
+307470
+42476d
+*/
+body {
+  background-color: #212121;
+  font-family: 'Montserrat', sans-serif;
+}
+/* -------------------------------------------------------------------------- */
+/* Navbar */
+.navbar {
+  background-color: #42476d;
+  text-align: left;
+  position: fixed;
+  width: 100vw;
+}
+.navbarlogo {
+height: 70px;
+width: auto;
+}
+.navbaropciones {
+  font-size: 25px;
+  font-weight: 700;
+}
+/* SEARCH BAR */
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+}
+/* -------------------------------------------------------------------------- */
+/* SEC1 */
+.sec1 {
+padding-top: 4rem;
+}
+.herocthu {
+  text-align: right;
+  background-image: url('../img/cthulhu1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+.heroyog {
+  text-align: right;
+  background-image: url('../img/yog-sothoth1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+.heronya {
+  text-align: right;
+  background-image: url('../img/bill1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+.cardhero1 {
+  padding-top: 33rem;
+}
+.cardhero2 {
+  padding-top: 32rem;
+}
+.cardhero3 {
+  padding-top: 32rem;
+}
+.herotext h5{
+  font-size: 20pt;
+  font-weight: 700;
+  color: #14ffec;
+}
+.herotext p{
+  font-size: 12pt;
+  color: #ffffff;
+}
+.herotext a{
+  font-size: 20pt;
+  color: #14ffec;
+}
+.shapefirst {
+  top: 940px;
+}
+.shapefirst li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #14ffec;
+}
+/* -------------------------------------------------------------------------- */
+/* SEC2 */
+.sec4 {
+  background-color: #;
+}
+.news1 {
+  text-align: right;
+  background-image: url('../img/page1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+.news2 {
+  text-align: right;
+  background-image: url('../img/page2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+.cardnewtext h5{
+  font-weight: 700;
+  font-size: 25px;
+}
+.cardnewtext p{
+  font-weight: 400;
+  font-size: 20px;
+}
+.cardherocolor {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.maxwidth {
+  max-width: 100%;
+}
+/* -------------------------------------------------------------------------- */
+/* SEC3 */
+.booksicon {
+  background-color: #212121;
+  text-align: center;
+}
+.icontext h2 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.icontext h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+/* -------------------------------------------------------------------------- */
+/* <!-- CAROUSEL Books --> */
+.sec5 {
+  background-color: #42476d;
+}
+.shapesecond {
+  top: 325px;
+}
+.shapesecond li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #14ffec;
+}
+.carouselimg {
+  width: 95%;
+  height: auto;
+}
+.shapesecond {
+  top: 390px;
+}
+.shapesecond li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #14ffec;
+}
+.iconcarou i {
+  font-size: 204px;
+  color: #14ffec;
+}
+.icontext h2{
+  padding-top: 2rem;
+  font-size: 20pt;
+  color: #ffffff;
+}
+.icontext h3 {
+  padding-top: 0.5rem;
+  font-size: 20pt;
+  color: #14ffec;
+}
+/* -------------------------------------------------------------------------- */
+/* Google map */
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.googlebackground {
+  background-color: #ffffff;
+}
+.googlebackground h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.googlebackground p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.googlebackground h5 {
+  font-size: 15px;
+  font-weight: 300;
+}
+/* Google map */
+/* -------------------------------------------------------------------------- */
+/* FOOT */
+footer {
+  background-color: #212121;
+  text-align: center;
+}
+.footicon2 {
+  width: 20%;
+  margin-top: 2.5rem;
+}
+.socialicon {
+color: #ffffff;
+text-align: center;
+padding-top: 0.5rem;
+}
+footer i {
+margin: 0 0.1em 0.1em 0.1em;
+}
+.iconseparation {
+  padding-left: 12rem;
+  padding-top: 0.5rem;
+}
+/* -------------------------------------------------------------------------- */
+/* INFO 1 */
+.works1 {
+margin-top: 5rem;
+}
+.works1 h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.info1 {
+  background-color: #23232323;
+  width: 100%;
+}
+.info1 h1 {
+  font-family: 'Oswald' ;
+  text-align: center;
+  font-size: 52pt;
+  font-weight: 600;
+  color: #000000;
+}
+.info1 h5 {
+  font-size: 23pt;
+  font-weight: 600;
+  color: #373A3C;
+}
+.info1 p {
+  font-size: 16pt;
+  font-weight: 200;
+  color: #373A3C;
+}
+.cardwhite {
+  background-color: #FFFFFF;
+}
+/* -------------------------------------------------------------------------- */
+/* BOOK */
+.bookposition {
+  margin-top: 7rem;
+}
+.bookposition h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.bookposition h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.bookposition p {
+  font-size: 20px;
+  font-weight: 400;
+}
+/* -------------------------------------------------------------------------- */
+/* INFO */
+.info1img {
+  position: absolute;
+  left: 40px;
+  width: 900px;
+  height: auto;
+}
+.info2img {
+  position: absolute;
+  left: 100px;
+  width: 750px;
+  height: auto;
+}
+.info3img {
+  position: absolute;
+  left: 40px;
+  width: 900px;
+  height: auto;
+}
+.infotext h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.infotext p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.infotext small {
+  font-size: 15px;
+  font-weight: 300;
+}
+/* -------------------------------------------------------------------------- */
+/* MEDIA */
+@media screen and (max-width: 420px) {
+  .heroyog {
+    text-align: center;
+    background-image: url('../img/yog-sothoth1.jpg');
+    background-repeat: no-repeat;
+    display: relative;
+    background-position: center;
+    width: 100%;
+    min-height: 200px;
+    transform:translate(0px);
+  }
+  .shapesecond {
+    display:none
+  }
+  .shapefirst {
+    display:none
+  }
+  .googlemaps {
+    display:none
+  }
+  .footicon2 {
+    display:none
+  }
+  .footertext {
+    padding-right: 5rem;
+  }
+  .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  }
+  .row {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  }
+  .iconseparation {
+    margin-left: 1rem;
+  }
+  .googleform {
+    padding-left: 2.5rem;
+  }
+  .logobusqueda {
+    display:none;
+  }
+}
+@media screen and (max-width: 770px) {
+  .heroyog {
+    text-align: center;
+    background-image: url('../img/yog-sothoth1.jpg');
+    background-repeat: no-repeat;
+    display: relative;
+    background-position: center;
+    width: 100%;
+    min-height: 200px;
+    transform:translate(0px);
+  }
+  .shapesecond {
+    display:none
+  }
+  .shapefirst {
+    display:none
+  }
+  .googlemaps {
+    display:none
+  }
+  .footicon2 {
+    margin-left: 12rem;
+    margin-top: 2rem;
+    width: 100px;
+    height: 100px;
+  }
+  .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  }
+  .row {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  }
+  .iconseparation {
+    margin-left: 1rem;
+  }
+  .googleform {
+    padding-left: 2.5rem;
+  }
+  .logobusqueda {
+    display:none;
+  }
+}
